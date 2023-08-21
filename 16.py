@@ -29,3 +29,18 @@ class peep:
 
 c = peep("hardee", "heet", "xyz", "abc")
 c.info()
+
+class stud:
+    def __init__(self, **kwargs):
+        self.kwargs = kwargs
+        # self.values = values
+        print("this is simple statement")
+    def dictfunc(self):
+        for key, value in self.kwargs.items():
+        # for i in self.kwargs:
+            # print(f"key: {key}, values: {values}")
+            print(f"Key: {key}, Value: {value}")
+
+d = stud(har="raval", hit="raval", xyz="abc")
+d.dictfunc()
+
