@@ -1,0 +1,7 @@
+tuple1 = ("a","b","b","c","d")
+tuple2 = list(tuple1)
+tuple2.append("e")
+print(tuple2)
+t = tuple1.index("b")
+print(t)
+print(tuple1.count("b"))
