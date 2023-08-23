@@ -1,16 +1,4 @@
-# class userprofile:
-#     def __init__(self, name, age, gender, occupation, hobby):
-#         self.name = name
-#         self.age = age
-#         self.gender = gender
-#         self.occupation = occupation
-#         self.hobby = hobby
 
-# class matchmaker(userprofile):
-#     def __init__(self):
-#         self.profiles = []
-#     def add_profile(self, profile):
-#         self.profiles.append(profile)
 
 f = str(input("Enter your first name: "))
 l = str(input("Enter your last name: "))
